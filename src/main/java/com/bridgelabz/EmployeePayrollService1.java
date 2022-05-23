@@ -60,6 +60,16 @@ public class EmployeePayrollService1 {
             new EmployeeFileIOService().printdata();
         }
     }
+    
+    public long countEntries(IOService ioService) {
+        if (ioService.equals(IOService.FILE_IO)) {
+            return new EmployeeFileIOService().countEntries();
+            //return 0;
+        }
+        return 0;
+    }
+
+
 
   
 
