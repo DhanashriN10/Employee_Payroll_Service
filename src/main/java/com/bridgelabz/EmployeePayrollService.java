@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class EmployeePayrollService
 {
-	private List<EmployeePayrollData> employeePayrollList;
+	/*private List<EmployeePayrollData> employeePayrollList;
 
 	public EmployeePayrollService(List<EmployeePayrollData> employeePayrollList) {
 		// TODO Auto-generated constructor stub
@@ -44,5 +44,5 @@ public class EmployeePayrollService
 		EmployeePayrollData empData=new EmployeePayrollData(id, name, salary);
 		employeePayrollList.add(empData);
 
-	}
+	}*/
 }
